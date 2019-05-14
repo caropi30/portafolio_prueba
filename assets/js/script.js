@@ -6,7 +6,7 @@ $(function(){
         var link = $(this).attr("href");
         $('.active').removeClass('active');
         $("html, body").animate({
-            scrollTop: $(t).offset().top - 50
+            scrollTop: $(link).offset().top - 50
         }, {
             duration: 1e3,
         });
