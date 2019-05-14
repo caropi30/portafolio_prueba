@@ -1,0 +1,40 @@
+body {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.navbar {
+	color: white;
+}
+
+#experience {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+#work {
+  background-color: #660066;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#work h2 {
+  color: white;
+}
+
+#contact {
+  background-color: #4ABCD5;
+	padding-top: 2em;
+	padding-bottom: 2em;
+  width: 100%;
+}
+
+footer {
+  background-color: #660066;
+  color: white;
+  padding-top:2em;
+  padding-bottom:2em;
+}
+
+footer hr {
+  font-weight: 400;
+   font-size: 2em;
+}
