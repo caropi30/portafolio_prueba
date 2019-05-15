@@ -21,11 +21,11 @@ window.onload = function () {
 	const work = document.getElementById('work');
 	const navItem = document.getElementsByClassName('nav-item');
 	//console.log(navItem);
-	work.setAttribute('style', 'background-color: blue;');
+	work.setAttribute('style', 'background-color: #4ABCD5;');
 	for (const item in navItem) {
 		if (navItem[item]) {
 			//console.log(navItem[item]);
-			navItem[item].setAttribute('style', 'background-color: red;');
+			navItem[item].setAttribute('style', 'background-color: #4ABCD5;');
 		}
 	}
 }

@@ -1,22 +1,93 @@
 body {
   font-family: 'Shadows Into Light', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
+#menu {
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+
 }
 
 .navbar {
 	color: white;
 }
 
-#experience {
-	padding-top: 5em;
-	padding-bottom: 5em;
+header {
+  background-image: url('../img/Carol-Pirela.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 20rem;
 }
-#work {
-  background-color: #660066;
+
+.carolina-tittle {
+  padding-top: 3em;
+}
+
+.carolina-tittle hr {
+  background-color: white;
+}
+
+.carolina-tittle h1 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.carolina-tittle p {
   padding-top: 2em;
+}
+
+#carouselExampleSlidesOnly {
+  width: 30%;
+}
+
+.carousel-control-next {
+  background-color: #4ABCD5;
+}
+
+.name {
+  width: 100%;
+  padding-top: 7em;
+  padding-left: 10em;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+#yo {
+  background-color: #4ABCD5;
+  padding-bottom: 3em;
+}
+
+#about {
+  padding-top: 3em;
+}
+
+#experience {
+  width: 100%;
+	padding-top: 8em;
+} 
+
+#experience h2 {
+font-family: 'Shadows Into Light', cursive;
+}
+
+#carouselExampleSlidesOnly {
+    width: 30%;
+}
+
+#about h2 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#work {
+  width: 100%;
+  padding-top: 3em;
   padding-bottom: 2em;
+  background-color: #660066;
 }
 
 #work h2 {
+  font-family: 'Shadows Into Light', cursive;
   color: white;
 }
 
@@ -25,6 +96,11 @@ body {
 	padding-top: 2em;
 	padding-bottom: 2em;
   width: 100%;
+  color: white;
+}
+
+#contact h2 {
+  font-family: 'Shadows Into Light', cursive;
 }
 
 footer {
@@ -32,6 +108,10 @@ footer {
   color: white;
   padding-top:2em;
   padding-bottom:2em;
+}
+
+footer h3 {
+  font-family: 'Shadows Into Light', cursive;
 }
 
 footer hr {
